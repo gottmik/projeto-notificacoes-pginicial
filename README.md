@@ -2,4 +2,4 @@
 
 Notificações - Odontoclinic Icaraí
 
-Criada para ser pag Inicial do chrome na clínica odontológica na qual eu trabalho. 
+Criada para ser pag Inicial do chrome nem uma clínica odontológica na qual eu trabalho. 
