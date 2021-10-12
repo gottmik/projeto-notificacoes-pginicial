@@ -1,0 +1,94 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0055c0;
+  width: 100%;
+}
+.container-pai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mensagem-container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 40px;
+  width: 1000px;
+  height: 380px;
+  justify-content: center;
+  align-items: center;
+  background-color: Rgb(255, 255, 255, 0.5);
+  font-family: verdana;
+}
+h1 {
+  font-family: sans-serif;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  animation: blinker 1s step-start infinite;
+  
+}
+
+
+@keyframes blinker {
+50% {
+opacity: 0;
+}
+}
+h2{
+  font-family: sans-serif;
+  font-style: italic;
+  color: white;
+  text-align: left;
+  padding-top:1%;
+  padding-left:1%;
+  
+}
+.botao-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.botao {
+  background-color: Rgb(255,255,255, 0.5);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-decoration: none;
+}
+.botao a {
+  font-family: verdana;
+  color: white;
+  text-decoration: none;
+}
+.lista-conteudo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 300px;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+.lista1 {
+}
+
+.lista3 {
+}
+
+.lista5 {
+}
